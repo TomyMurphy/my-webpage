@@ -23,7 +23,7 @@ function mostrarOcultarMenu(){
         menu_visible = false;
     }
 }
-//oculto el menú una vez que selecciono una opción
+//oculto el menú una vez que selecciono una opción                                   
 let links = document.querySelectorAll("nav a");
 for(var x = 0; x <links.length;x++){
     links[x].onclick = function(){
@@ -82,7 +82,7 @@ function efectoHabilidades(){
         },100);
         const intervalPhp = setInterval(function(){
             pintarBarra(php, 14, 4, intervalPhp);
-        },100);
+        },100);1
         const intervalIlustrator = setInterval(function(){
             pintarBarra(ilustrator, 15, 5, intervalIlustrator);
         },100);
