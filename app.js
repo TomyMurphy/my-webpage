@@ -60,7 +60,7 @@ crearBarra(ilustrator);
 //comienzan en -1 porque no tiene ninguna pintada al iniciarse
 let contadores = [-1,-1,-1,-1,-1,-1];
 //esta variable la voy a utilizar de bandera para saber si ya ejecuto la animación
-let entro = false; 
+let entro = false;
 
 //función que aplica las animaciones de la habilidades
 function efectoHabilidades(){
