@@ -97,7 +97,7 @@ function pintarBarra(id_barra, cantidad, indice, interval){
         let elementos = id_barra.getElementsByClassName("e");
         elementos[x].style.backgroundColor = "#0066ff";
     }else{
-        clearInterval(interval)
+        clearInterval(interval);
     }
 }
 
