@@ -69,16 +69,16 @@ function efectoHabilidades(){
     if(distancia_skills>=300 && entro==false){
         entro = true;
         const intervalHtml = setInterval(function(){
-            pintarBarra(html, 14, 0, intervalHtml);
+            pintarBarra(html, 17, 0, intervalHtml);
         },100);
         const intervalJavascript = setInterval(function(){
-            pintarBarra(javascript, 16, 1, intervalJavascript);
+            pintarBarra(javascript, 17, 1, intervalJavascript);
         },100);
         const intervalWordpress = setInterval(function(){
-            pintarBarra(wordpress, 13, 2, intervalWordpress);
+            pintarBarra(wordpress, 16, 2, intervalWordpress);
         },100);
         const intervalPhotoshop = setInterval(function(){
-            pintarBarra(photoshop, 15, 3, intervalPhotoshop);
+            pintarBarra(photoshop, 16, 3, intervalPhotoshop);
         },100);
         const intervalPhp = setInterval(function(){
             pintarBarra(php, 14, 4, intervalPhp);
@@ -98,6 +98,7 @@ function pintarBarra(id_barra, cantidad, indice, interval){
         elementos[x].style.backgroundColor = "#0066ff";
     }else{
         clearInterval(interval);
+        clearInterval(this)
     }
 }
 
