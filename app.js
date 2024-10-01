@@ -98,7 +98,7 @@ function pintarBarra(id_barra, cantidad, indice, interval){
         elementos[x].style.backgroundColor = "#0066ff";
     }else{
         clearInterval(interval);
-        clearInterval(this)
+        clearInterval(this);
     }
 }
 
